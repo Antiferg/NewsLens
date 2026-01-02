@@ -11,6 +11,7 @@ def get_requirements(file_path:str)->List[str]:
 
         if REM in requirements:
             requirements.remove(REM)
+    return requirements
 setup(
     name='NewsLens',
     version='0.0.1',
